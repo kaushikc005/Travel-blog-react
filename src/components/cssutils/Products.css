@@ -1,0 +1,26 @@
+.products{
+    background-image: url('../../assets/images/img-products.jpg');
+
+     padding: 20px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-blend-mode: darken;
+     width: 100vw;
+     height: 79vh;
+     display: flex;
+     align-items:start;
+     justify-content: center;
+     object-fit: contain;
+     position: relative;
+     font-size: 5rem;
+     font-weight: 500;
+     overflow-x: hidden;
+  }
+
+  @media (max-width:960px){
+    .products{
+
+        padding: 0px;
+       }
+  }
