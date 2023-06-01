@@ -46,7 +46,7 @@
     transition: all 0.3s;
 }
 
-@media (max-width:960px){
+@media (max-width:768px){
     .btn{
        
         outline: 0;

@@ -1,7 +1,7 @@
 
 .hero--container{
      padding: 20px;
-     background: url('images/img-home.jpg') center/cover no-repeat;
+     background: url('./images/img-home.jpg') center/cover no-repeat;
      background-size: cover;
      background-blend-mode: darken;
      width: 100vw;
@@ -51,7 +51,7 @@
     }
 
 }
-@media (max-width:960px){
+@media (max-width:768px){
     
 .hero--container{
     padding: 0px;
