@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./cssutils/Card.css";
+import "./cssutils/Cards.css"
 import CardItem from './CardItem'
 const Cards = () => {
   return (
