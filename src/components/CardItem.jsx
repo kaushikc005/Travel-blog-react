@@ -1,5 +1,5 @@
 import React from 'react'
-import './CardItem.css'
+import "./cssutils/CardItem.css";
 
 const CardItem = ({url,text,type}) => {
   return (
