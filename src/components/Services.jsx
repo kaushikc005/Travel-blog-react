@@ -1,11 +1,11 @@
-import React from 'react'
-import './cssutils/Services.css'
+import React from "react";
+import "./cssutils/Services.css";
 const Services = () => {
   return (
-    <div className='services'>
-        <p>Services</p>
-    </div>
-  )
-}
+    <article className="services">
+      <p>Services</p>
+    </article>
+  );
+};
 
-export default Services
+export default Services;

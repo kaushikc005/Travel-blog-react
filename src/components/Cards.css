@@ -10,7 +10,7 @@
     justify-content: center;
     padding: 20px;
     overflow-x: hidden;
-    /* margin-block:50px; */
+
 }
 .card--heading{
     font-size: 50px;
@@ -24,19 +24,14 @@
     padding:0 120px;
 }
 
+
+
+
+
 @media (max-width:960px){
     .card{
-        width: 100vw;
-        height: fit-content;
-        background-color: #fff;
-        color: #242424;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         padding: 20px 0;
         align-items: center;
-        /* margin-block:50px; */
     }
     .cards--list{
         flex-direction: column;

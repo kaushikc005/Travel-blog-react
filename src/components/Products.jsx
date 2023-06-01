@@ -1,11 +1,11 @@
-import React from 'react'
-import './cssutils/Products.css'
+import React from "react";
+import "./cssutils/Products.css";
 const Products = () => {
   return (
-    <div className='products'>
-        <p>Products</p>
-    </div>
-  )
-}
+    <article className="products">
+      <p>Products</p>
+    </article>
+  );
+};
 
-export default Products
+export default Products;

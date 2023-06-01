@@ -4,7 +4,7 @@ import './Cards.css'
 import CardItem from './CardItem'
 const Cards = () => {
   return (
-    <div className='card'>
+    <article className='card'>
     <p className='card--heading'>Checkout these EPIC destinations</p>
       
       <ul className='cards--list'>
@@ -16,7 +16,7 @@ const Cards = () => {
         <CardItem url='/src/assets/images/img-4.jpg' text='Explore the hidden waterfall deep inside the Amazon forest'/>
         <CardItem url='/src/assets/images/img-8.jpg' text='Explore the hidden waterfall deep inside the Amazon forest'/>
       </ul>
-    </div>
+    </article>
   )
 }
 
