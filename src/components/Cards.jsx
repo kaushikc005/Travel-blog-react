@@ -8,13 +8,13 @@ const Cards = () => {
     <p className='card--heading'>Checkout these EPIC destinations</p>
       
       <ul className='cards--list'>
-        <CardItem url='/src/assets/images/img-1.jpg' text='Explore the hidden waterfall deep inside the Amazon forest'/>
-        <CardItem url='/src/assets/images/img-2.jpg' text='Explore the hidden waterfall deep inside the Amazon forest'/>
+        <CardItem url='images/img-1.jpg' text='Explore the might hills and conquer them'/>
+        <CardItem url='images/img-2.jpg' text='Find your adventure at the best beaches!'/>
       </ul>
       <ul className='cards--list'>
-        <CardItem url='/src/assets/images/img-3.jpg' text='Explore the hidden waterfall deep inside the Amazon forest'/>
-        <CardItem url='/src/assets/images/img-4.jpg' text='Explore the hidden waterfall deep inside the Amazon forest'/>
-        <CardItem url='/src/assets/images/img-8.jpg' text='Explore the hidden waterfall deep inside the Amazon forest'/>
+        <CardItem url='images/img-3.jpg' text='Enjoy your today in the sea of happiness!'/>
+        <CardItem url='images/img-4.jpg' text='Enjoy the unexpected things'/>
+        <CardItem url='images/img-8.jpg' text='Wonder around the dunes of Africa'/>
       </ul>
     </article>
   )
